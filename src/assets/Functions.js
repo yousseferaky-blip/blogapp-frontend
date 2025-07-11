@@ -127,7 +127,6 @@ export const getComment = async ({ e, setCommentsList, id }) => {
       withCredentials: true,
     });
     setCommentsList(res.data.post);
-    console.log(res.data.post);
   } catch (err) {
     console.log(err);
   }
