@@ -1,0 +1,112 @@
+/* ====== Comments Section ====== */
+.comments-section {
+  margin-top: 30px;
+}
+
+.comments-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* ====== Add Comment ====== */
+.add-comment {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.comment-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.add-comment-btn {
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-comment-btn:hover {
+  background-color: #005fc1;
+}
+
+/* ====== Comment List ====== */
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-item {
+  background-color: white;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.comment-item p {
+  margin: 0;
+  font-size: 15px;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.delete-comment-btn {
+  background: none;
+  border: none;
+  color: #e63946;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-comment-btn:hover {
+  color: #c71f2f;
+}
+.comment-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.update-comment-btn {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-comment-btn:hover {
+  background-color: #e0a800;
+}
+.edit-comment-input {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cancel-edit-btn {
+  background-color: #ccc;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
