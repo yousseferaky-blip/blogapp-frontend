@@ -30,7 +30,7 @@ const ProfilePosts = () => {
               
                <div className="post-image">
                 <img
-                  src={`${BASE_URL}/images/${post.photo}`}
+                  src={`${post.photo}`}
                   alt={post.title}
                   loading="lazy"
                 />
@@ -45,7 +45,7 @@ const ProfilePosts = () => {
               <div className="post-actions">
                 <Link to={`/post/${post._id}`} className="read-more">Read More →</Link>
                 <div className="icons">
-                  <button onClick={()=>deletePost({id,navigate})} className="delete-btn">🗑️</button>
+                  <button onClick={()=>deletePost({id:post._id,navigate})} className="delete-btn">🗑️</button>
                 </div>
               </div>
             </div>
