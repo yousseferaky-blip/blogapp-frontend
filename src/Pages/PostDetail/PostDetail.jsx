@@ -27,7 +27,7 @@ const PostDetail = () => {
       <section className="post-detail-container">
         <div className="post-detail-card">
           <img
-            src={`${BASE_URL}/images/${post.photo}`}
+            src={`${post.photo}`}
             alt={post.title}
             className="post-image"
           />

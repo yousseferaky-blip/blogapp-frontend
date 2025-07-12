@@ -53,20 +53,18 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  
 }
 
 .comment-item p {
   margin: 0;
   font-size: 15px;
-  width: 90%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  width: 100%;
 }
+.comment-item p strong{
+    margin-right: 10px;
 
+}
 .delete-comment-btn {
   background: none;
   border: none;

@@ -43,7 +43,7 @@ const Posts = () => {
                     <div key={index} className="post-card">
                         <div className="post-image">
                             <img 
-                            src={`${BASE_URL}/images/${post.photo}`} 
+                            src={`${post.photo}`} 
                             loading='lazy' 
                             alt={post.title} 
                             onError={(e) => e.target.style.display = 'none'}

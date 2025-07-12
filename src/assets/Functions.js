@@ -65,8 +65,7 @@ export const CreateNewPost = async ({ e, title, desc, username, userId, file, na
                 "Content-Type": "multipart/form-data",
             }}
         )
-            navigate("/profile")
-            window.location.reload()
+            navigate("/profile", { replace: true });
             toast.success("Post created successfully")
         }catch(err){
             console.log(err)
