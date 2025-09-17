@@ -1,6 +1,5 @@
 import './PostDetail.css'
 import {  useEffect, useState } from 'react'
-import { BASE_URL } from '../../assets/url'
 import {useParams } from 'react-router-dom'
 import {  getComment, getPostDetails } from '../../assets/Functions'
 import { PostComment } from '../../Component/PostDetails/PostComment/PostComment'
